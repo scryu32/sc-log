@@ -27,6 +27,7 @@
 .nav-btn {
     display: flex;
     padding: 14px;
+    margin-right: 80px;
 }
 
 .nav-btn a {
