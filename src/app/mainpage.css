@@ -1,0 +1,62 @@
+.main-page {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.instruction-text {
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 36px;
+}
+
+.gradiention-text {
+    background: linear-gradient(to right, #5ffff7, #ad7bfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-container {
+    width: 90%;
+    margin: auto;
+    height: 670px;
+    background-color: rgb(67, 58, 85);
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.card {
+    border-radius: 40px;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(to right, #5ffff7, #ad7bfe);
+    transition: all .3s;
+    text-align: center;
+    padding: 60px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.card h4 {
+    font-size: 35px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #5d097e, #2426b3); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card p {
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.card i {
+    font-size: 130px;
+    margin-top: 40px;
+    overflow: hidden;
+    background: linear-gradient(to right, #5d097e, #2426b3); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
